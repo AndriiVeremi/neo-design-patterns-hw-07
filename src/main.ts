@@ -33,4 +33,4 @@ const content = createDocument(format);
 const renderer = RendererFactory.create(format);
 const result = renderer.wrapDocument(content);
 
-output ? writeFileSync(output, result) : console.log(result); 
+output ? writeFileSync(output, result) : console.log(result);

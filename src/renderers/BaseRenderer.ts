@@ -17,4 +17,4 @@ export abstract class BaseRenderer implements DocRenderer {
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
   }
-} 
+}
